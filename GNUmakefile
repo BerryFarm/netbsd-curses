@@ -42,7 +42,7 @@ else
 STATIC_BINS=0
 endif
 
-CFLAGS+=-Werror-implicit-function-declaration
+#CFLAGS+=-Werror-implicit-function-declaration
 CPPFLAGS+= -I. -I./libterminfo
 
 TOOL_NBPERF=	nbperf/nbperf

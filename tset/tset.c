@@ -35,7 +35,8 @@ __COPYRIGHT("@(#) Copyright (c) 1980, 1991, 1993\
 
 #include <sys/types.h>
 #include <sys/ioctl.h>
-#include <sys/ttydefaults.h>
+//#include <sys/ttydefaults.h>
+#include "netbsd_sys/sys/ttydefaults.h"
 #include <ctype.h>
 #include <err.h>
 #include <errno.h>

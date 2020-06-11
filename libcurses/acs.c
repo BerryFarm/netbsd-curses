@@ -5,7 +5,7 @@
  * All rights reserved.
  *
  * This code is derived from software contributed to The NetBSD Foundation
- * by Julian Coleman.
+ * by Julian Coleman.?
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -38,7 +38,8 @@ chtype _acs_char[NUM_ACS];
 #ifdef HAVE_WCHAR
 #include <assert.h>
 #include <locale.h>
-#include <langinfo.h>
+//#include <langinfo.h>
+#include "netbsd_sys/langinfo.h"
 #include <strings.h>
 
 cchar_t _wacs_char[ NUM_ACS ];

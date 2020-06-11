@@ -36,7 +36,8 @@
 #include <term.h>
 #include <termios.h>
 #include <unistd.h>
-#include <sys/ttydefaults.h>
+//#include <sys/ttydefaults.h>
+#include "netbsd_sys/sys/ttydefaults.h"
 #include "extern.h"
 #ifndef OXTABS
 #define OXTABS 0

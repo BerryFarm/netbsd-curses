@@ -40,6 +40,11 @@
 #include <term_private.h>
 #include <term.h>
 
+/*BBOS10*/
+#define MIN(a,b)            (((a) < (b)) ? (a) : (b))
+#define MAX(a,b)            (((a) > (b)) ? (a) : (b))
+/*BBOS10*/
+
 #define LONG_STR_MAX ((CHAR_BIT * sizeof(long)) / 3)
 #define BUFINC 128	/* Size to increament the terminal buffer by */
 
